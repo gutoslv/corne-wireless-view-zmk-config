@@ -23,7 +23,7 @@
             bindings = <
 &mt LS(TAB) TAB              &kp Q               &kp W           &kp F         &kp P         &kp B          &kp J            &kp L            &kp U         &kp Y       &kp SEMICOLON  &kp EQUAL
 &mt LA(BACKSPACE) BACKSPACE  &mt LEFT_COMMAND A  &mt LEFT_ALT R  &mt LCTRL S   &mt LSHIFT T  &kp G          &kp M            &mt RSHFT N      &mt RCTRL E   &mt RALT I  &mt RCMD O     &kp SQT
-&kp LSHFT                    &kp Z               &kp X           &kp C         &kp D         &kp V          &kp K            &kp H            &kp COMMA     &kp DOT     &kp FSLH       &kp RSHIFT
+&kp LC(LG(SPACE))            &kp Z               &kp X           &kp C         &kp D         &kp V          &kp K            &kp H            &kp COMMA     &kp DOT     &kp FSLH       &caps_word
                                                                  &lt 3 ESCAPE  &lt 1 SPACE   &lt 2 LA(C)    &lt 5 RG(SPACE)  &lt 4 RG(ENTER)  &lt 6 DELETE
             >;
         };
