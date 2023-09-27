@@ -28,9 +28,9 @@
 
             label = "Base";
             bindings = <
-&mt LS(TAB) TAB              &kp Q               &kp W           &kp F         &kp P         &kp B              &kp J            &kp L        &kp U         &kp Y       &kp SEMICOLON  &kp EQUAL
+&mt LS(TAB) TAB              &mt LG(Q) Q         &mt LG(W) W     &mt LG(F) F   &kp P         &kp B              &kp J            &mt RG(L) L  &kp U         &kp Y       &kp SEMICOLON  &kp EQUAL
 &mt LA(BACKSPACE) BACKSPACE  &mt LEFT_COMMAND A  &mt LEFT_ALT R  &mt LCTRL S   &mt LSHIFT T  &kp G              &kp M            &mt RSHFT N  &mt RCTRL E   &mt RALT I  &mt RCMD O     &kp SQT
-&kp LC(LG(SPACE))            &kp Z               &mt LG(X) X     &mt LG(C) C   &kp D         &mt LG(V) V        &kp K            &kp H        &kp COMMA     &kp DOT     &kp FSLH       &caps_word
+&kp LC(LG(SPACE))            &mt LG(Z) Z         &mt LG(X) X     &mt LG(C) C   &kp D         &mt LG(V) V        &kp K            &kp H        &kp COMMA     &kp DOT     &kp FSLH       &caps_word
                                                                  &lt 3 ESCAPE  &lt 1 SPACE   &lt 2 LA(LG(C))    &lt 5 RG(SPACE)  &lt 4 ENTER  &lt 6 DELETE
             >;
         };
